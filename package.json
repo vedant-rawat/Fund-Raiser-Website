@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@nextui-org/button": "^2.0.34",
+    "bootstrap": "^5.3.3",
     "mongoose": "^8.5.1",
     "next": "14.2.5",
     "next-auth": "^4.24.7",
     "razorpay": "^2.9.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.5"
   },
   "devDependencies": {
     "eslint": "^8",

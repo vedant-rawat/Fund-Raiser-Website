@@ -24,6 +24,7 @@ const Payment = () => {
     };
   }, []);
 
+
   const handlePayment = async () => {
 
     const parsedAmount = parseInt(amount);
@@ -131,15 +132,18 @@ const Payment = () => {
   // };
 
   return (
-    <div className='flex gap-5'>
-      <input className='text-black'
-        type="number"
-        value={amount}
-        onChange={(e) => setAmount(e.target.value)}
-        placeholder="Enter Amount"
-      />
-      <Button color="primary" isLoading>Pay Now</Button>
-    </div>
+    <>
+      <div className='flex flex-col gap-5 md:flex-row'>
+        <input className='text-black'
+          type="number"
+          value={amount}
+          onChange={(e) => setAmount(e.target.value)}
+          placeholder="Enter Amount"
+        />
+        <Button className='cursor-pointer' onClick={handlePayment} color="primary">Pay Now</Button>
+      </div>
+    </>
+    
   );
 };
 
