@@ -9,7 +9,7 @@ const page = () => {
       {/* <Link className='mt-14 border border-white px-2 py-1 rounded-lg bg-blue-700 text-2xl' href="/login">Login</Link> */}
 
       {/* </div> */}
-      <div className="flex items-center h-screen bg-cover" style={{ backgroundImage: "url('/pics/backkk.jpg')"}}>
+      <div className="flex items-center min-h-screen bg-cover" style={{ backgroundImage: "url('/pics/backkk.jpg')"}}>
         <div className="mx-11 text-xl">
             <div className="p-4 font-bold text-2xl">
               Pay to Your Favourite Creators
